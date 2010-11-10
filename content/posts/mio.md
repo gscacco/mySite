@@ -1,7 +1,7 @@
 ---
 title: 'nanoc'
-disqus_id: 1
-disqus_title: nanoc
+disqus_id: '1 nanoc'
+disqus_title: 'nanoc'
 ---
 
 # nanoc

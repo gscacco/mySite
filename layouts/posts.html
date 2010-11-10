@@ -2,10 +2,10 @@
   <%= yield %>
   <div id="disqus_thread"></div>
   <script type="text/javascript">
-    var disqus_identifier = 123;
+    var disqus_identifier = '<%= @item[:disqus_id] %>';
     var disqus_url = 'http://gscsite.atwebpages.com/';
     var disqus_shortname = 'gscsite';
-    var disqus_title = "Prova";
+    var disqus_title = '<%= @item[:disqus_title] %>';
     /**
     * var disqus_identifier; [Optional but recommended: Define a unique identifier (e.g. post id or slug) for this thread] 
     */
