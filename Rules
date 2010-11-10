@@ -14,11 +14,11 @@
 compile '*' do
   case item[:extension]
     when 'md'
-      filter :rdiscount
+    filter :rdiscount
+    layout 'posts'
     when 'haml'
       filter :haml
   end
-  layout 'posts'
   layout 'default'
 end
 
