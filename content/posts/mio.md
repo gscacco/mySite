@@ -1,6 +1,7 @@
 ---
 title: 'nanoc'
-disqus_id: '1 nanoc'
+disqus_id: blogpost_<1>
+post_url: '/posts/mio/'
 disqus_title: 'nanoc'
 ---
 

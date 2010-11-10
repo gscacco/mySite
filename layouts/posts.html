@@ -2,10 +2,8 @@
   <%= yield %>
   <div id="disqus_thread"></div>
   <script type="text/javascript">
-    var disqus_identifier = '<%= @item[:disqus_id] %>';
-    var disqus_url = 'http://gscsite.atwebpages.com/';
-    var disqus_shortname = 'gscsite';
-    var disqus_title = '<%= @item[:disqus_title] %>';
+    var disqus_identifier = "<%= @item[:disqus_id] %>";
+    var disqus_developer = "1";
     /**
     * var disqus_identifier; [Optional but recommended: Define a unique identifier (e.g. post id or slug) for this thread] 
     */
@@ -17,12 +15,4 @@
   </script>
   <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript=gscsite">comments powered by Disqus.</a></noscript>
   <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
-  <script type="text/javascript">
-    var disqus_shortname = 'gscsite';
-    (function () {
-    var s = document.createElement('script'); s.async = true;
-    s.src = 'http://disqus.com/forums/gscsite/count.js';
-    (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
-    }());
-  </script>
 </div>
