@@ -2,13 +2,12 @@
 title: Home
 ---
 
-<h1>Mio Nuovo Sito Web</h1>
-
-<p>You’ve just created a new nanoc site. The page you are looking at right now is the home page for your site. To get started, consider replacing this default homepage with your own customized homepage. Some pointers on how to do so:</p>
-
-<ul>
-  <li><p><strong>Change this page’s content</strong> by editing the “index.html” file in the “content” directory. This is the actual page content, and therefore doesn’t include the header, sidebar or style information (those are part of the layout).</p></li>
-  <li><p><strong>Change the layout</strong>, which is the “default.html” file in the “layouts” directory, and create something unique (and hopefully less bland).</p></li>
-</ul>
-
-<p>If you need any help with customizing your nanoc web site, be sure to check out the documentation (see sidebar), and be sure to subscribe to the discussion group (also see sidebar). Enjoy!</p>
+# L'Informatico
+  Questo sito vuole essere un resoconto in continua evoluzione dei miei principali interessi nel campo dell'informatica.
+  
+  Negli ultimi quattro anni un'altra passione mi ha travolto: la corsa. Non disdegnerò, quindi, di inserire qualche articolo a riguardo: *non mi dispiacerebbe sfatare il mito dell'informatico trascurato, miope e grassottello (insommma nerd !)*.
+  
+  ![](/img/HomerRunning.jpg)
+  
+  
+  
