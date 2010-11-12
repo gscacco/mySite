@@ -7,7 +7,7 @@ title: Home
   
   Negli ultimi quattro anni un'altra passione mi ha travolto: la corsa. Non disdegnerò, quindi, di inserire qualche articolo a riguardo: *non mi dispiacerebbe sfatare il mito dell'informatico trascurato, miope e grassottello (insommma nerd !)*.
   
-  ![](/img/HomerRunning.jpg)
+  ![](/img/Homer.jpg)
   
   
   
