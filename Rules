@@ -19,7 +19,7 @@ compile '*' do
   when 'md'
     filter :rdiscount
     #puts item[:filename]
-    if item[:filename] != 'content/index.md'
+    if item[:filename].match(/posts/)
       layout 'posts'
     end
   when 'haml'

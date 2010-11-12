@@ -46,6 +46,7 @@ a:hover {
   font-size: 15px;
   
   line-height: 20px;
+  text-align: left;
 }
 
 #main ul {
@@ -59,7 +60,6 @@ a:hover {
   
   line-height: 20px;
 }
-
 #sidebar {
   position: absolute;
 
