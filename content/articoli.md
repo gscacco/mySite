@@ -3,8 +3,10 @@ title: Articoli
 ---
 # Informatica
 
+![](/img/HomerInformatica120.jpg)
+
 * compilatore di siti web statici [nanoc](/posts/nanoc/)
 
 # Running
 
-![](/img/articoli.jpg)
+![](/img/HomerRunning120.jpg)
