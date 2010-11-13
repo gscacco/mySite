@@ -29,10 +29,6 @@ Per istallare nanoc a riga di comando eseguire:
 
 `% sudo gem install nanoc`
 
-Se utilizzate un proxy:
-
-`% sudo gem install --http-proxy http://server:port nanoc`
-
 Se utilizzate [markdown](http://daringfireball.net/projects/markdown/) per le pagine sarà necessario istallare kramdown:
 
 `% sudo gem install kramdown`
