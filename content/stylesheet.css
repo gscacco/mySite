@@ -1,3 +1,4 @@
+@code_font: "Droid Sans Mono", Courier New, monospace;
 * {
   margin: 0;
   padding: 0;
@@ -46,10 +47,11 @@ a:hover {
   font-size: 15px;
   
   line-height: 20px;
+  text-align: left;
 }
 
 #main ul {
-  margin: 20px;
+  margin: 10px;
 }
 
 #main li {
@@ -59,7 +61,6 @@ a:hover {
   
   line-height: 20px;
 }
-
 #sidebar {
   position: absolute;
 
@@ -96,4 +97,43 @@ a:hover {
   font-size: 14px;
 
   line-height: 20px;
+}
+code {
+    font-family: @code_font !important;
+    font-size: 9pt;
+    #background-color: #eeeeee;
+    #border: 1px solid #CC6600;
+}
+.simple {
+}
+pre code {
+    margin: 0;
+    padding: 0;
+    display: block;
+    #max-width: 590px;
+    overflow: visible;
+}
+pre {
+    font-family: @code_font !important;
+    font-size: 9pt;
+    line-height: 1.4em;
+    
+    color: #222;
+    border: 1px solid #f7a600;
+    background-color: #fefef1;
+    
+    display: table;
+    margin: 10px 20px 20px;
+    padding: 10px 16px;
+    
+    border-left-width: 5px;
+    border-left-style: solid;
+    border-bottom-right-radius: 12px;
+    -webkit-border-bottom-right-radius: 12px;
+    -moz-border-bottom-right-radius: 12px;
+    -o-border-bottom-right-radius: 12px;
+    
+    .shadow(2px, 3px, 5px, #ccc);
+    
+    overflow: hidden;
 }

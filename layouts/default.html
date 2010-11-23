@@ -2,27 +2,48 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>L'InforMatico - <%= @item[:title] %></title>
+    <title>L'Informatico - <%= @item[:title] %></title>
     <link rel="stylesheet" type="text/css" href="/style.css" media="screen">
     <meta name="generator" content="nanoc 3.1.5">
+    <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script><script type="text/javascript">stLight.options({publisher:'29a379b0-3942-43ef-aadb-fc0143704063'});</script>
+    <script type="text/javascript">
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-19685332-1']);
+      _gaq.push(['_trackPageview']);
+      
+      (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+      
+    </script>
+    
   </head>
   <body>
     <div id="main">
       <%= yield %>
     </div>
     <div id="sidebar">
-      <h2>Links utili</h2>
+      <h2>Links</h2>
       <ul>
         <li><a href="/">Home</a></li>
-        <li><a href="http://nanoc.stoneship.org/docs/">Documentazione</a></li>
-        <li><a href="http://nanoc.stoneship.org/docs/3-getting-started/">Getting Started</a></li>
+        <li><a href="/articoli">Articoli</a></li>
+	<li><a href="/autore">L'autore</a></li>
+	<li><a href="/ringraziamenti">Ringraziamenti</a></li>
       </ul>
-      <h2>Contatti</h2>
-      <ul>
-        <li><a href="http://groups.google.com/group/nanoc/">Discussion Group</a></li>
-        <li><a href="irc://chat.freenode.net/#nanoc">IRC Channel</a></li>
-        <li><a href="http://projects.stoneship.org/trac/nanoc/">Wiki</a></li>
-      </ul>
+      <h2>Notizie</h2>
+      <script type="text/javascript" src="http://www.google.it/reader/ui/publisher-it.js"></script>
+      <script type="text/javascript" src="http://www.google.it/reader/public/javascript/user/12416022323994522979/state/com.google/broadcast?n=6&callback=GRC_p(%7Bc%3A%22-%22%2Ct%3A%22%22%2Cs%3A%22false%22%2Cn%3A%22true%22%2Cb%3A%22false%22%7D)%3Bnew%20GRC"></script>
     </div>
+    <script type="text/javascript">
+      var disqus_shortname = 'gscsite';
+      (function () {
+      var s = document.createElement('script'); s.async = true;
+      s.src = 'http://disqus.com/forums/gscsitelocale/count.js';
+      (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+      }());
+    </script>
   </body>
 </html>
